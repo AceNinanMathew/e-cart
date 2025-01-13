@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
-    <div style={{minHeight:'250px',marginTop:'100px',position:'absolute', bottom:'0'}} className='mt-5 w-full bg-violet-600 text-white p-4'>
+    <div style={{minHeight:'250px',marginTop:'100px'}} className='mt-5 w-full bg-violet-600 text-white p-4'>
       <div className='flex justify-between p-4'>
         <div style={{width:'400px'}} className='intro'>
           <h5 className='text-xl font-bold'><i className='fa-solid fa-truck-fast me-2'></i>E Cart</h5>
